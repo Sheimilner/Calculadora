@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="calculado.css">
+    <link rel="stylesheet" href="calculadora.css">
     <title>Calculadora</title>
 </head>
 <body>
@@ -13,30 +13,60 @@
             <div class="pantalla">
                 <p id="textoPantalla">0</p>
             </div>
-            <input type="button" class="botonNormal" id="0" name="0" value="0">
-            <input type="button" class="botonNormal" id="1" name="1" value="1">
-            <input type="button" class="botonNormal" id="2" name="2" value="2">
-            <input type="button" class="botonNormal" id="3" name="3" value="3">
-            <input type="button" class="botonNormal" id="4" name="4" value="4">
-            <input type="button" class="botonNormal" id="5" name="5" value="5">
-            <input type="button" class="botonNormal" id="6" name="6" value="6">
-            <input type="button" class="botonNormal" id="7" name="7" value="7">
-            <input type="button" class="botonNormal" id="8" name="8" value="8">
-            <input type="button" class="botonNormal" id="9" name="9" value="9">
-            <input type="button" class="botonNormal" id="=" name="=" value="=">
-            <input type="button" class="botonNormal" id="+" name="+" value="+">
-            <input type="button" class="botonNormal" id="-" name="-" value="-">
-            <input type="button" class="botonNormal" id="%" name="%" value="%">
-            <input type="button" class="botonNormal" id="*" name="*" value="*">
-            <input type="button" class="botonNormal" id="log" name="log" value="log">
-            <input type="button" class="botonNormal" id="ln" name="ln" value="ln">
-            <input type="button" class="botonNormal" id="^" name="^" value="^">
-            <input type="button" class="botonNormal" id="sin" name="sin" value="sin">
-            <input type="button" class="botonNormal" id="cos" name="cos" value="cos">
-            <input type="button" class="botonNormal" id="tan" name="tan" value="tan">
-            <input type="button" class="botonNormal" id="e" name="e" value="e">
-            <input type="button" class="botonNormal" id="Ans" name="Ans" value="Ans">
-            
+            <div class="container">
+            <table>
+                <tr>
+                    <td><input type="button" class="botonNormal" id="(" name="(" value="("></td>
+                    <td><input type="button" class="botonNormal" id=")" name=")" value=")"></td>
+                    <td><input type="button" class="botonNormal" id="x!" name="x!" value="x!"></td>
+                    <td><input type="button" class="botonNormal" id="x²" name="x²" value="x²"></td>
+                    <td><input type="button" class="botonNormal" id="√" name="√" value="√"></td>
+                    <td><input type="button" class="botonNormal" id="√" name="√" value="√"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="botonNormal" id="sin" name="sin" value="sin"></td>
+                    <td><input type="button" class="botonNormal" id="cos" name="cos" value="cos"></td>
+                    <td><input type="button" class="botonNormal" id="tan" name="tan" value="tan"></td>
+                    <td><input type="button" class="botonNormal" id="x³" name="x³" value="x³"></td>
+                    <td><input type="button" class="botonNormal" id="√³" name="√³" value="√³"></td>
+                    <td><input type="button" class="botonNormal" id="xⁿ" name="xⁿ" value="xⁿ"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="botonNormal" id="1" name="1" value="1"></td>
+                    <td><input type="button" class="botonNormal" id="2" name="2" value="2"></td>
+                    <td><input type="button" class="botonNormal" id="3" name="3" value="3"></td>
+                    <td><input type="button" class="botonNormal" id="/" name="/" value="/"></td>
+                    <td><input type="button" class="botonNormal" id="%" name="%" value="%"></td>
+                    <td><input type="button" class="botonNormal" id="ln" name="ln" value="ln"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="botonNormal" id="4" name="4" value="4"></td>
+                    <td><input type="button" class="botonNormal" id="5" name="5" value="5"></td>
+                    <td><input type="button" class="botonNormal" id="6" name="6" value="6"></td>
+                    <td><input type="button" class="botonNormal" id="*" name="*" value="*"></td>
+                    <td><input type="button" class="botonNormal" id="log" name="log" value="log"></td>
+                    <td><input type="button" class="botonNormal" id="e" name="e" value="e"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="botonNormal" id="7" name="7" value="7"></td>
+                    <td><input type="button" class="botonNormal" id="8" name="8" value="8"></td>
+                    <td><input type="button" class="botonNormal" id="9" name="9" value="9"></td>
+                    <td><input type="button" class="botonNormal" id="-" name="-" value="-"></td>
+                    <td><input type="button" class="botonNormal" id="AC" name="AC" value="AC"></td>
+                    <td rowspan=2><input type="button" class="botonNormal" id="=" name="=" value="="></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="botonNormal" id="." name="." value="."></td>
+                    <td><input type="button" class="botonNormal" id="0" name="0" value="0"></td>
+                    <td><input type="button" class="botonNormal" id="π" name="π" value="π"></td>
+                    <td><input type="button" class="botonNormal" id="+" name="+" value="+"></td>
+                    <td><input type="button" class="botonNormal" id="MR" name="MR" value="MR"></td>
+                </tr>            
+                
+                
+                
+            </table>    
+        </div>
             
         </form>
     </div>
