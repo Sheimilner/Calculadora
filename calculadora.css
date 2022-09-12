@@ -1,3 +1,48 @@
-.container {
+.calculadora {
     border: 2px solid;
+    border-radius: 4px;
+    margin: 10vh 35vw;
+    background-color: rgb(24, 99, 80);
+}
+
+.pantalla{
+    background-color: rgb(104, 210, 233);
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 4vh 3.3vw;
+}
+
+.container{
+    margin: 4vh 3.3vw;
+
+    
+}
+
+.botonNormal{
+    height: 4vh;
+    width: 3.5vw;
+    background-color: black;
+    color: rgb(24,99,88);
+    border: 1px solid rgb(104,210,233);
+}
+
+.botonNormal:hover{
+    background-color: white;
+    color: rgb(24,99,88);
+    border: 1px solid rgb(104,210,233);
+}
+
+.botonIgual{
+    height: 8vh;
+    width: 3.5vw;
+    background-color: black;
+    color: rgb(24,99,88);
+    border: 1px solid rgb(104,210,233);
+    
+}
+
+.botonIgual:hover{
+    background-color: white;
+    color: rgb(24,99,88);
+    border: 1px solid rgb(104,210,233);
 }

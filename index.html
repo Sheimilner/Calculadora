@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="calculadora.css">
     <title>Calculadora</title>
+    <script type="text/javascript" defer src="index.js"></script>  
 </head>
 <body>
     <div class="calculadora">
         <form action="" name="calculadora" id="calculadora">
             <div class="pantalla">
-                <p id="textoPantalla">0</p>
+                <p id="textoPantalla">...</p>
             </div>
             <div class="container">
             <table>
@@ -53,7 +54,7 @@
                     <td><input type="button" class="botonNormal" id="9" name="9" value="9"></td>
                     <td><input type="button" class="botonNormal" id="-" name="-" value="-"></td>
                     <td><input type="button" class="botonNormal" id="AC" name="AC" value="AC"></td>
-                    <td rowspan=2><input type="button" class="botonNormal" id="=" name="=" value="="></td>
+                    <td rowspan=2><input type="button" class="botonIgual" id="=" name="=" value="="></td>
                 </tr>
                 <tr>
                     <td><input type="button" class="botonNormal" id="." name="." value="."></td>
@@ -70,6 +71,6 @@
             
         </form>
     </div>
-    
+
 </body>
 </html>
